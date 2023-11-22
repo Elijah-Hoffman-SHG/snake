@@ -1,0 +1,18 @@
+.board{
+    outline: 2px solid lightblue;
+}
+.row{
+    height:50px;
+}
+.cell{
+    width:50px;
+    height:50px;
+    outline: 1px solid lightblue;
+    display: inline-block;
+}
+.snake-cell{
+    background-color: rgb(7, 95, 66);
+}
+.food-cell{
+    background-color: crimson;
+}
